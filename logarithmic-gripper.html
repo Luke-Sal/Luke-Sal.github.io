@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logarithmic Gripper · Luke Salazar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar: same on every page. To add a project, add a link here on every page. -->
+  <nav class="topbar">
+    <a class="topbar-name" href="index.html">Luke Salazar</a>
+    <div class="tabs">
+      <a href="index.html">Home</a>
+      <a href="crush-depth-2026.html">Crush Depth 2026</a>
+      <a href="logarithmic-gripper.html" class="active">Logarithmic Gripper</a>
+      <a href="cycloidal-arm.html">Cycloidal Robotic Arm</a>
+      <a href="crush-depth-2025.html">Crush Depth 2025</a>
+      <a href="perry.html">PERRY</a>
+    </div>
+    <a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF</a>
+  </nav>
+
+  <main>
+    <section class="project">
+      <h2>Logarithmic Gripper</h2>
+
+      <div class="split">
+        <div>
+          <h3>Project Overview</h3>
+          <p>Designed and prototyped a meter long bio-inspired gripper that mimics the curling motion of animal appendages. The arm’s closed path follows a logarithmic spiral, commonly found in nature for its efficient growth and motion. The project drew inspiration from the SpiRobs project from the University of Science and Technology of China.</p>
+        </div>
+        <img src="images/gripper.jpg" alt="Logarithmic spiral gripper prototype">
+      </div>
+
+      <h3>Parametric Modeling</h3>
+      <p>I developed a fully parametric SolidWorks model where the arm’s geometry is driven by logarithmic spiral equations. I derived, tested, and verified the geometry first in a MATLAB live script before moving the parametric equations into SolidWorks global variables.</p>
+
+      <h3>Physical Prototype</h3>
+      <p>The arm is composed of linkages 3D printed in ABS. The joints connecting the linkages are printed in TPU, providing the elastic layer to allow the arm to uncurl and remain erect. The arm uses three 0.8mm UHMWPE cords to translate the motion from stepper motors at the base through the arms.</p>
+
+      <figure>
+        <div class="grid two">
+          <img src="images/gripper-matlab.jpg" alt="MATLAB geometry verification plot">
+          <img src="images/gripper-kinematic.jpg" alt="2D kinematic test">
+        </div>
+        <figcaption>Left: MATLAB geometry verification | Right: 2D kinematic test</figcaption>
+      </figure>
+    </section>
+    <div class="pager">
+      <a href="crush-depth-2026.html">← Crush Depth 2026</a>
+      <a href="cycloidal-arm.html">Cycloidal Robotic Arm →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p><a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF Portfolio</a></p>
+    <p>
+      <a href="mailto:Salazar.Luke@hotmail.com">Salazar.Luke@hotmail.com</a> ·
+      <a href="https://www.linkedin.com/in/luke-salazar-63020129b">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycloidal Robotic Arm · Luke Salazar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar: same on every page. To add a project, add a link here on every page. -->
+  <nav class="topbar">
+    <a class="topbar-name" href="index.html">Luke Salazar</a>
+    <div class="tabs">
+      <a href="index.html">Home</a>
+      <a href="crush-depth-2026.html">Crush Depth 2026</a>
+      <a href="logarithmic-gripper.html">Logarithmic Gripper</a>
+      <a href="cycloidal-arm.html" class="active">Cycloidal Robotic Arm</a>
+      <a href="crush-depth-2025.html">Crush Depth 2025</a>
+      <a href="perry.html">PERRY</a>
+    </div>
+    <a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF</a>
+  </nav>
+
+  <main>
+    <section class="project">
+      <h2>Cycloidal Robotic Arm</h2>
+
+      <h3>Project Overview</h3>
+      <p>A bespoke four degrees of freedom robotic arm designed for smooth, repeatable camera motion. Each joint: wrist, elbow, shoulder, and the trunk are driven by NEMA 17 stepper motors through compact cycloidal drives, enabling high torque and precise motion control with near zero-backlash.</p>
+      <figure>
+        <div class="grid two even">
+          <img src="images/arm-outreach.jpg" alt="Robotic arm at an outreach event">
+          <img src="images/arm-cad.jpg" alt="Full 3D CAD assembly of the arm">
+        </div>
+        <figcaption>Left: Arm set up at an outreach event | Right: Full 3D CAD assembly</figcaption>
+      </figure>
+
+      <h3>Cycloidal Drive Design &amp; Implementation</h3>
+      <p>I generated the disc profile using Me Virtuoso’s online cycloidal simulator. The finalized drives employ a dual cycloidal disc configuration positioned 180 degrees out of phase to compensate for unbalanced forces and to ensure smoother operation speed. The final drive assembly uses a combination of ball bearings, bronze bushings, and heat-set inserts for structural rigidity.</p>
+      <figure>
+        <img src="images/arm-exploded.jpg" alt="Exploded view of the cycloidal drive">
+        <figcaption>Exploded view of the cycloidal drive</figcaption>
+      </figure>
+
+      <h3>Outcomes</h3>
+      <p>This project significantly deepened my expertise in designing, applying, and optimizing speed reduction systems, mechanical tolerance management, and motion transmission efficiency.</p>
+    </section>
+    <div class="pager">
+      <a href="logarithmic-gripper.html">← Logarithmic Gripper</a>
+      <a href="crush-depth-2025.html">Crush Depth 2025 →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p><a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF Portfolio</a></p>
+    <p>
+      <a href="mailto:Salazar.Luke@hotmail.com">Salazar.Luke@hotmail.com</a> ·
+      <a href="https://www.linkedin.com/in/luke-salazar-63020129b">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PERRY · Luke Salazar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar: same on every page. To add a project, add a link here on every page. -->
+  <nav class="topbar">
+    <a class="topbar-name" href="index.html">Luke Salazar</a>
+    <div class="tabs">
+      <a href="index.html">Home</a>
+      <a href="crush-depth-2026.html">Crush Depth 2026</a>
+      <a href="logarithmic-gripper.html">Logarithmic Gripper</a>
+      <a href="cycloidal-arm.html">Cycloidal Robotic Arm</a>
+      <a href="crush-depth-2025.html">Crush Depth 2025</a>
+      <a href="perry.html" class="active">PERRY</a>
+    </div>
+    <a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF</a>
+  </nav>
+
+  <main>
+    <section class="project">
+      <h2>PERRY</h2>
+      <p class="subtitle">Pressure Equipped Robot for Research and Yield</p>
+
+      <div class="split">
+        <div>
+          <h3>Project Overview</h3>
+          <p>PERRY autonomously descended to 2.5 m and logged pressure, temperature, and time data. It competed at the 2025 MATE ROV World Championship. As Float Lead, I led a 4-person team and designed PERRY’s bespoke watertight housing and buoyancy engine.</p>
+        </div>
+        <img src="images/perry.jpg" alt="PERRY vertical profiling float">
+      </div>
+
+      <div class="split narrow-img">
+        <div>
+          <h3>Buoyancy Engine</h3>
+          <p>PERRY's propulsion is driven by an internal buoyancy engine that mechanically changes its density by modulating the water volume inside a 500 mL plastic syringe. A Creality 42-34 stepper motor, coupled to a lead screw and nut assembly salvaged from a 3D printer, drives the plunger to expel and pull in water. This system was selected for its capability to deliver the power and precision needed for controlled displacement.</p>
+        </div>
+        <img src="images/perry-section.jpg" alt="Section view of PERRY's buoyancy engine">
+      </div>
+
+      <h3>Multi-Stage Waterproofing Strategy</h3>
+      <p>I developed the multi staged waterproofing system to ensure protection of internal electronics.</p>
+      <h4>Main Housing Lid</h4>
+      <p>The main housing lid utilizes a PTFE O-ring coated in silicone grease, set in a flange seal calculated for 25% compression to ensure a watertight bond.</p>
+      <h4>Bottom Plunger Seal</h4>
+      <p>The buoyancy engine mechanism compresses a PTFE gasket at the base of the chassis to prevent water ingress around the plunger mechanism.</p>
+      <h4>Material Permeability</h4>
+      <p>I utilized acetone flash vapor smoothing to address the inherent porosity of ABS printed parts. This process fused the outer layer lines, creating a watertight shell, effectively mitigating permeability and preventing water seepage into the enclosure.</p>
+
+      <figure>
+        <div class="grid two even">
+          <img src="images/perry-seal-test.jpg" alt="Waterproofing test of the O-ring seal">
+          <img src="images/perry-engine-test.jpg" alt="Bench test of the buoyancy engine and electronics">
+        </div>
+        <figcaption>Left: Waterproofing test of the O-ring seal | Right: Test of the buoyancy engine and electronics</figcaption>
+      </figure>
+    </section>
+    <div class="pager">
+      <a href="crush-depth-2025.html">← Crush Depth 2025</a>
+      <a href="index.html">Home →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p><a class="btn" href="Luke_Salazar_Portfolio.pdf" download>Download PDF Portfolio</a></p>
+    <p>
+      <a href="mailto:Salazar.Luke@hotmail.com">Salazar.Luke@hotmail.com</a> ·
+      <a href="https://www.linkedin.com/in/luke-salazar-63020129b">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
